@@ -1,0 +1,1 @@
+Repositório para testes, treinos e práticas aleatórias que eu tive vontade enquanto estou nessa longa e bela jornada de aprendizado constante dentro da programação.
