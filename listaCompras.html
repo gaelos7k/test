@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de compras</title>
+</head>
+<body>
+    
+    <button onclick="novoItem()">Adiconar novo item</button>
+
+    <h1>A lista de compras é:</h1>
+
+<div id="output"></div>
+    
+    <script>
+
+        const output = document.querySelector('#output');
+
+        function novoItem (){
+            let item = prompt('Digite um novo item para a lista.');
+            let arrItem = [];
+            arrItem.push(item);
+            console.log(arrItem);
+            
+        }
+
+    </script>
+
+</body>
+</html>
